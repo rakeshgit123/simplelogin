@@ -1,0 +1,63 @@
+*{
+    font-family: 'Poppins' sans-serif;
+}
+
+body{
+    background-image: url('fback.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+.contain{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+}
+
+span{
+    color: aliceblue;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+
+header{
+    color:antiquewhite;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+}
+.input{
+    height: 45px;
+    width: 87%;
+    border:none;
+    outline: none;
+    border-radius: 10px;
+    color:antiquewhite;
+    padding: 0 0 0 45px;
+    background-color: rgb(243, 153, 42);
+
+}
+.input:focus{
+   background-color: rgb(93, 134, 134);
+}
+.submit{
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    height:45px;
+    outline:none;
+    width:100%;
+    cursor: pointer;
+}
